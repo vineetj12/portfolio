@@ -19,7 +19,7 @@ const cards = [
     content: (
       <div className="text-white">
         <h2 className="text-xl font-bold">URL Shortener</h2>
-        <p>A web tool to shorten long URLs using hash-based keys with redirection support.</p>
+        <p>A web tool to shorten long URLs using hash-based keys with redirection support</p>
       </div>
     ),
     className: "h-[300px]",
