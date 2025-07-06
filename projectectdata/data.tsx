@@ -15,7 +15,7 @@ const cards = [
   {
     id: 2,
     label: "URL Shortener",
-    url: "https://shorturl-vineetj12.vercel.app/",
+    url: "https://shorturl-ten-mocha.vercel.app/",
     content: (
       <div className="text-white">
         <h2 className="text-xl font-bold">URL Shortener</h2>
