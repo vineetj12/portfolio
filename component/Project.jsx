@@ -5,7 +5,7 @@ import { LayoutGrid } from "./layout-grid";
 import Projectheader from "./Projectheader";
 const Project = () => {  
   return (
-    <div className="min-h-screen bg-black-100 p-10">
+    <div id="projects" className="min-h-screen bg-black-100 p-10">
       <Projectheader/>
       <LayoutGrid cards={cards} />
     </div>

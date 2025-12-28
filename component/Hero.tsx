@@ -40,10 +40,14 @@ const Hero = () => {
           <p className='text-center md:tracking-wider md:-4 text-sm md:text-lg lg:text-2xl'>
             A passionate software engineer turning complex problems into elegant solutions.</p>
             <br />
-        <a href="#about">
-         <MagicButton title='See My Projects'/>
-        </a>
-        <FloatingNav navItems={[{name:"about" , link:"/"}]} />
+        <div className='flex gap-4 flex-wrap justify-center'>
+          <a href="#projects">
+            <MagicButton title='See My Projects'/>
+          </a>
+          <a href="https://drive.google.com/file/d/1XN88XRsXeeqMqDkMU99gcStZpGT6omK4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <MagicButton title='Resume'/>
+          </a>
+        </div>
         </div>
       </div>
     </div>

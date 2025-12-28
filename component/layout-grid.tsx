@@ -18,12 +18,8 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   const [lastSelected, setLastSelected] = useState<Card | null>(null);
 
 const handleClick = (card: Card) => {
-  if (selected?.id === card.id) {
-    window.open(card.url, "_blank");
-  } else {
-    setLastSelected(selected);
-    setSelected(card);
-  }
+  setLastSelected(selected);
+  setSelected(card);
 };
   const handleOutsideClick = () => {
     setLastSelected(selected);
