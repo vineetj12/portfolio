@@ -86,7 +86,7 @@ const cards = [
       </div>
     ),
     className: "md:col-span-2",
-    thumbnail: "/picture/vibenet.png", 
+    thumbnail: "/picture/vibe-net.png", 
   }
 ];
 
