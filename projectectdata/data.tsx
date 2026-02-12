@@ -64,6 +64,29 @@ const cards = [
     ),
     className: "h-[300px]",
     thumbnail: "/picture/url.png", 
+  },
+  {
+    id: 4,
+    label: "VibeNet",
+    url: "https://vineetj12-vibenet.vercel.app/",
+    githubUrl: "https://github.com/vineetj12/vibenet",
+    content: (
+      <div className="text-white">
+        <h2 className="text-xl font-bold">📹 VibeNet</h2>
+        <p>Real-time WebRTC video chat app with room management and optional recording.</p>
+        <p className="text-sm mt-2">Tech: React, TypeScript, Vite, Tailwind CSS, WebRTC, WebSocket</p>
+        <div className="flex gap-3 mt-4">
+          <a href="https://vineetj12-vibenet.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded text-sm transition">
+            Live Project
+          </a>
+          <a href="https://github.com/vineetj12/vibenet" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded text-sm transition">
+            GitHub Code
+          </a>
+        </div>
+      </div>
+    ),
+    className: "md:col-span-2",
+    thumbnail: "/picture/vibenet.png", 
   }
 ];
 
