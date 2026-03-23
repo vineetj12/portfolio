@@ -87,6 +87,52 @@ const cards = [
     ),
     className: "md:col-span-2",
     thumbnail: "/picture/vibe-net.png", 
+  },
+  {
+    id: 5,
+    label: "FJ-BE-R2",
+    url: "https://fj-be-r2-vineet-national-institute.vercel.app/",
+    githubUrl: "https://github.com/vineetj12/FJ-BE-R2-Vineet-National-Institute-of-Technology-Delhi",
+    content: (
+      <div className="text-white">
+        <h2 className="text-xl font-bold">💰 FJ-BE-R2</h2>
+        <p>Finance-focused web application for the National Institute of Technology Delhi project.</p>
+        <p className="text-sm mt-2">Tech: React, Full-stack JavaScript, Backend APIs</p>
+        <div className="flex gap-3 mt-4">
+          <a href="https://fj-be-r2-vineet-national-institute.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded text-sm transition">
+            Live Project
+          </a>
+          <a href="https://github.com/vineetj12/FJ-BE-R2-Vineet-National-Institute-of-Technology-Delhi" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded text-sm transition">
+            GitHub Code
+          </a>
+        </div>
+      </div>
+    ),
+    className: "h-[300px]",
+    thumbnail: "/picture/finance.png",
+  },
+  {
+    id: 6,
+    label: "News App",
+    url: "https://vineetj12-news-app.vercel.app/",
+    githubUrl: "https://github.com/vineetj12/news-app",
+    content: (
+      <div className="text-white">
+        <h2 className="text-xl font-bold">📰 News App</h2>
+        <p>Modern news platform with searchable headlines and trending stories.</p>
+        <p className="text-sm mt-2">Tech: Next.js, TypeScript, Tailwind CSS, News APIs</p>
+        <div className="flex gap-3 mt-4">
+          <a href="https://vineetj12-news-app.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded text-sm transition">
+            Live Project
+          </a>
+          <a href="https://github.com/vineetj12/news-app" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded text-sm transition">
+            GitHub Code
+          </a>
+        </div>
+      </div>
+    ),
+    className: "h-[300px]",
+    thumbnail: "/picture/news-app.png",
   }
 ];
 
