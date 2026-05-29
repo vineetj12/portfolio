@@ -133,6 +133,29 @@ const cards = [
     ),
     className: "h-[300px]",
     thumbnail: "/picture/news-app.png",
+  },
+  {
+    id:7,
+    label: "Wandr",
+    url: "https://vineetj12-wandr.vercel.app",
+    githubUrl: "https://github.com/vineetj12/wandr",
+    content: (
+      <div className="text-white">
+        <h2 className="text-xl font-bold">✈ Wandr</h2>
+        <p>AI travel planner that builds day-by-day itineraries with budgets and hotel tiers.</p>
+        <p className="text-sm mt-2">Tech: Node.js, PostgreSQL, Gemini AI</p>
+        <div className="flex gap-3 mt-4">
+          <a href="https://vineetj12-wandr.vercel.app" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded text-sm transition">
+            Live Project
+          </a>
+          <a href="https://github.com/vineetj12/wandr" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded text-sm transition">
+            GitHub Code
+          </a>
+        </div>
+      </div>
+    ),
+    className: "h-[300px]",
+    thumbnail: "/picture/wandr.png",
   }
 ];
 
